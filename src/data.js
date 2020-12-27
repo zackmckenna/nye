@@ -27,7 +27,7 @@ const data = [
     descriptor: "Hardened",
     strength: "Astonishingly fast reflexes",
     flaw: "has an obligation to thier family",
-    drive: "repent for past wrongdoings",
+    drive: "repent for my past wrongdoings",
     nickname:
       "Libold the loyal. Feeling directionless after a traumatic and mysterious event from my past, Kifnali, a young sorceress, took me in and nurtured my broken mind. We fell in love, and I swore an oath to protect and serve her as her loyal warder, establishing my honorific.",
     motivation:
@@ -121,7 +121,7 @@ const data = [
   {
     Timestamp: "12/27/2020 16:43:30",
     name: "Zack",
-    characterName: "Klaern",
+    characterName: "Klaern Brechtleaf",
     race: "Elf",
     role: "Rogue",
     descriptor: "Inspiring",
@@ -139,6 +139,45 @@ const data = [
     home:
       "I do not know where my home realm is. I was stolen from my family when I was young, by a traveling band of humans. I do remember the smell of bread, and the laughter of my family while I fell asleep at night. I feel that this is what I try to recreate myself in the Zigbone Tavern, with good food and company. I do wish that there was a way for me to find my way home someday, but I feel that too much time has passed. My wish, it seems, would be to turn back time itself.",
     "Email Address": "zackmckenna@gmail.com",
+  },
+  {
+    Timestamp: "12/27/2020 17:50:14",
+    name: "Amanda",
+    characterName: "Mada",
+    race: "Human",
+    role: "Warlock",
+    descriptor: "Wild",
+    strength: "Knowledge of the forbidden arts",
+    flaw: "Weakness for corrupting magics",
+    drive: "Uncover ancient secrets and lore",
+    nickname:
+      "Mada the Darkbrow. It was given to me by my  fiend patron, the fearful archfey Baba Yaga. The name cannot be revoked.",
+    motivation:
+      "I seek to always go where the unknown takes me. The walls that separate the mortal plane from the other planes of existence are weakest during the cold days of Yule. I hope something (or someone) interesting shows up.",
+    memory:
+      "The magical hut of Baba Yaga, Mother of All Witches. I hold my undying pact with her, and as my fiend patron, she owes me more of her arcane knowledge. Unfortunately, her and her hut can only be found when they wish to be found.",
+    infamy:
+      "I am mostly unknown, as I keep to myself and don’t often give out my name. Though, rumors spread, so some of my less “successful” activities have given me a foul reputation, and my inadvertent good deeds have left most more confused than they were prior.",
+    home:
+      "I have no home realm, but I gravitate towards the magical, wandering in the overgrown, wild rifts between the physical and spiritual planes. My desire is only to see the unseen, to understand the unimaginable.",
+    "Email Address": "amanda.waller.33@gmail.com",
+  },
+  {
+    Timestamp: "12/27/2020 17:58:16",
+    name: "Jon",
+    characterName: "Gordo",
+    race: "Elf",
+    role: "Explorer",
+    descriptor: "Whimsical",
+    strength: "Unending patience",
+    flaw: "Weakness for corrupting magics",
+    drive: "Travel to the edge of the world",
+    nickname: "",
+    motivation: "Hiring an exploration crew",
+    memory: "The island of many oysters",
+    infamy: "Normal",
+    home: "",
+    "Email Address": "jcw122@gmail.com",
   },
 ];
 
