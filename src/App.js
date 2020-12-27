@@ -101,7 +101,7 @@ const App = () => {
                                 variant="link"
                                 eventKey="1"
                               >
-                                Motivation
+                                Motivation for Attending
                               </Accordion.Toggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="1">
