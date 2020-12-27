@@ -70,7 +70,7 @@ const App = () => {
                             {character.strength.toLowerCase()}
                           </span>
                           , but also{" "}
-                          <span style={style.red}>{character.flaw}</span>. Thier
+                          <span style={style.red}>{character.flaw}</span>. Their
                           drive is to {character.drive}.
                         </p>
                       </Card.Text>
