@@ -27,7 +27,7 @@ const data = [
     descriptor: "Hardened",
     strength: "Astonishingly fast reflexes",
     flaw: "has an obligation to thier family",
-    drive: "repent for my past wrongdoings",
+    drive: "repent for past wrongdoings",
     nickname:
       "Libold the loyal. Feeling directionless after a traumatic and mysterious event from my past, Kifnali, a young sorceress, took me in and nurtured my broken mind. We fell in love, and I swore an oath to protect and serve her as her loyal warder, establishing my honorific.",
     motivation:
@@ -178,6 +178,28 @@ const data = [
     infamy: "Normal",
     home: "",
     "Email Address": "jcw122@gmail.com",
+  },
+  {
+    Timestamp: "12/27/2020 18:43:07",
+    name: "Dhiraj",
+    characterName: "Pashik",
+    race: "Human",
+    role: "Explorer",
+    descriptor: "Curious",
+    strength: "Knowledge of the cosmos and other worlds",
+    flaw: "The ire of a wronged divine being",
+    drive: "To find a way to return to my home",
+    nickname:
+      "My name is my title.... I am a wanderer. Those who knew my real name are long gone. Turned to ash by the passage of time",
+    motivation:
+      "I seek answers. This realm is old, almost as old as my own, But the magic is..... strange, different. I seek to learn about this realm and the gods who inhabit it. But more importantly, I seek a way home.",
+    memory:
+      "Tai’shar, the realm of time! bathed in perpetual light, the planet and its star orbit a supermassive black hole (yes other worlds exist). Time flows differently there. Although world is new (almost as new as this one) yet, Tai’shar and its people are old.... being so close to a black hole has allowed the Tai’sharans to master time itself. It is a secret that I was entrusted with, and one I shall guard to my death.",
+    infamy:
+      "I am known as the traveller, a collector of stories and a seeker of knowledge.",
+    home:
+      "My world, like yours, is ruled by a powerful being.... what you may call a god.... they jealously guard knowledge and use their power to punish those who seek enlightenment. However, I learnt of their true nature and was banished for possessing that knowledge, never to return to my home again. Left with nowhere to go, and armed with the knowledge to traverse worlds and relms, I vowed to end my banishment. For in my travels, I have uncovered a secret. A secret unknown even to the gods of this realm.... I know how to kill a god.",
+    "Email Address": "dhirajsapkal@gmail.com",
   },
 ];
 
