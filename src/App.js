@@ -70,8 +70,10 @@ const App = () => {
                             {character.strength.toLowerCase()}
                           </span>
                           , but also{" "}
-                          <span style={style.red}>{character.flaw}</span>. Their
-                          drive is to {character.drive}.
+                          <span style={style.red}>
+                            {character.flaw.toLowerCase()}
+                          </span>
+                          . Their drive is to {character.drive.toLowerCase()}.
                         </p>
                       </Card.Text>
                       <Accordion>
@@ -83,7 +85,7 @@ const App = () => {
                                 variant="link"
                                 eventKey="0"
                               >
-                                How did you gain your title?
+                                Nickname
                               </Accordion.Toggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="0">
@@ -99,7 +101,7 @@ const App = () => {
                                 variant="link"
                                 eventKey="1"
                               >
-                                What is your motivation for attending?
+                                Motivation
                               </Accordion.Toggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="1">
@@ -115,7 +117,7 @@ const App = () => {
                                 variant="link"
                                 eventKey="2"
                               >
-                                What is a memorable location from your travels?
+                                Memorable Location
                               </Accordion.Toggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="2">
@@ -131,7 +133,7 @@ const App = () => {
                                 variant="link"
                                 eventKey="3"
                               >
-                                What is your status in the Realm?
+                                Realm Status
                               </Accordion.Toggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="3">
@@ -147,7 +149,7 @@ const App = () => {
                                 variant="link"
                                 eventKey="4"
                               >
-                                What is your home like?
+                                Home
                               </Accordion.Toggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="4">
