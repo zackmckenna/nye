@@ -57,6 +57,11 @@ const App = () => {
                         {character.characterName
                           ? character.characterName
                           : "name unknown"}
+                        <span
+                          style={{ fontFamily: "sans-serif", fontSize: "14px" }}
+                        >
+                          {"   "}({character.name.toLowerCase()})
+                        </span>
                       </Card.Title>
                       <Card.Subtitle className="mb-2 text-muted">
                         {character.race ? character.race : ""}
