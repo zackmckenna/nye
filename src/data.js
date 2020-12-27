@@ -27,7 +27,7 @@ const data = [
     descriptor: "Hardened",
     strength: "Astonishingly fast reflexes",
     flaw: "has an obligation to thier family",
-    drive: "repent for my past wrongdoings",
+    drive: "repent for past wrongdoings",
     nickname:
       "Libold the loyal. Feeling directionless after a traumatic and mysterious event from my past, Kifnali, a young sorceress, took me in and nurtured my broken mind. We fell in love, and I swore an oath to protect and serve her as her loyal warder, establishing my honorific.",
     motivation:

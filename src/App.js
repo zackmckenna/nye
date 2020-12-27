@@ -39,7 +39,7 @@ const App = () => {
 
   return (
     <>
-      <Jumbotron fluid>
+      <Jumbotron style={{ backgroundColor: "#f0ad4e" }} fluid>
         <Container>
           <h1>The Great Yule Ball</h1>
           <p>The attendees of the great Yule Ball of 1202</p>
