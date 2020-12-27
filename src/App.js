@@ -14,56 +14,6 @@ import {
 
 const App = () => {
   const [characters, setCharacters] = useState();
-  const processData = (data) => {
-    const cleanedData = [];
-    data.map((answers) => {
-      const user = {};
-      for (const [key, value] of Object.entries(answers)) {
-        switch (key) {
-          case "Before we start, what is your real life name?":
-            user.username = value;
-            break;
-          case "What is your character's name?":
-            user.characterName = value;
-            break;
-          case "What is your race?":
-            user.race = value;
-            break;
-          case "What is your role?":
-            user.role = value.toLowerCase();
-            break;
-          case "What is your descriptor?":
-            user.descriptor = value.toLowerCase();
-            break;
-          case "What is your strength?":
-            user.strength = value.toLowerCase();
-            break;
-          case "What is your flaw?":
-            user.flaw = value.toLowerCase();
-            break;
-          case "What is your drive?":
-            user.drive = value.toLowerCase();
-            break;
-          case "Throughout your life, you have gained a title, nickname or honorific. What is it, and how did you gain it?":
-            user.nickname = value;
-            break;
-          case "While everyone is excited to be invited to the great Yule Festival, there is another motivation that drives you to attend. What is it?":
-            user.motivation = value;
-            break;
-          case "Of all the places you’ve seen on your travels, one stands out and you long to return. Where is it and why?":
-            user.memory = value;
-          case "How are you known within the Realms? Are you famous, infamous, a normal citizen or a mystery?":
-            user.infamy = value;
-            break;
-          case "What is your home Realm like? What is something you love about it? What about it do you wish would change?":
-            user.home = value;
-            break;
-        }
-      }
-      cleanedData.push(user);
-    });
-    return cleanedData;
-  };
 
   const style = {
     pink: {
@@ -84,7 +34,7 @@ const App = () => {
   };
 
   useEffect(() => {
-    setCharacters(processData(data));
+    setCharacters(data);
   }, []);
 
   return (
@@ -114,9 +64,12 @@ const App = () => {
 
                       <Card.Text>
                         <p>
-                          A {character.descriptor} {character.role} who has{" "}
-                          <span style={style.green}>{character.strength}</span>,
-                          but also{" "}
+                          A {character.descriptor.toLowerCase()}{" "}
+                          {character.role.toLowerCase()} who has{" "}
+                          <span style={style.green}>
+                            {character.strength.toLowerCase()}
+                          </span>
+                          , but also{" "}
                           <span style={style.red}>{character.flaw}</span>. Thier
                           drive is to {character.drive}.
                         </p>
