@@ -31,6 +31,7 @@ const App = () => {
             break;
           case "What is your role?":
             user.role = value.toLowerCase();
+            break;
           case "What is your descriptor?":
             user.descriptor = value.toLowerCase();
             break;
@@ -56,6 +57,7 @@ const App = () => {
             break;
           case "What is your home Realm like? What is something you love about it? What about it do you wish would change?":
             user.home = value;
+            break;
         }
       }
       cleanedData.push(user);
