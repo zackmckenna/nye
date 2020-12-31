@@ -151,7 +151,7 @@ const data = [
     flaw: "Weakness for corrupting magics",
     drive: "Uncover ancient secrets and lore",
     nickname:
-      "Mada the Darkbrow. It was given to me by my  fiend patron, the fearful archfey Baba Yaga. The name cannot be revoked.",
+      "Mada the Darkbrow. It was given to me by my fiend patron, the fearful archfey Baba Yaga. The name cannot be revoked.",
     motivation:
       "I seek to always go where the unknown takes me. The walls that separate the mortal plane from the other planes of existence are weakest during the cold days of Yule. I hope something (or someone) interesting shows up.",
     memory:
@@ -200,6 +200,23 @@ const data = [
     home:
       "My world, like yours, is ruled by a powerful being.... what you may call a god.... they jealously guard knowledge and use their power to punish those who seek enlightenment. However, I learnt of their true nature and was banished for possessing that knowledge, never to return to my home again. Left with nowhere to go, and armed with the knowledge to traverse worlds and relms, I vowed to end my banishment. For in my travels, I have uncovered a secret. A secret unknown even to the gods of this realm.... I know how to kill a god.",
     "Email Address": "dhirajsapkal@gmail.com",
+  },
+  {
+    Timestamp: "12/31/2020 10:42:00",
+    name: "Anthony",
+    characterName: "Klaeus Ashford",
+    race: "Human",
+    role: "Explorer",
+    descriptor: "Daring",
+    strength: "Friends in the right places",
+    flaw: "Enemies, too numerous to count",
+    drive: "Travel to the edge of the world",
+    nickname: "",
+    motivation: "",
+    memory: "",
+    infamy: "",
+    home: "",
+    "Email Address": "galloa17@gmail.com",
   },
 ];
 
